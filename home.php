@@ -34,7 +34,10 @@
                     <?php if($_SESSION['role'] == 'organizer' || $_SESSION['role'] == 'admin'): ?>
                         <a href="visitors.php" class="btn btn-outline-success btn-lg px-4">Ziyaretçiler</a>
                     <?php endif; ?>
-                    <a href="logout.php" class="btn btn-outline-danger btn-lg px-4">Çıkış yap</a>
+                    <?php if($_SESSION['role'] == 'admin'): ?>
+                        <a href="users.php" class="btn btn-outline-danger btn-lg px-4">👤 Kullanıcı Hesaplarını Yönet</a>
+                    <?php endif; ?>
+                    <a href="logout.php" class="btn btn-danger btn-lg px-4 shadow-none text-white border-0">Çıkış yap</a>
                 </div>
 
             </div>

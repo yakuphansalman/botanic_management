@@ -73,7 +73,6 @@
                                             <?php 
                                                 $active_user_id = $_SESSION['user_id']; 
                                                 
-                                                // Bu kod döngünün İÇİNDE olduğu için $row['user_id'] sorunsuz çalışır
                                                 if ($_SESSION['role'] == 'admin' || $row['user_id'] == $active_user_id): 
                                             ?>
                                                 <a href="edit_plant.php?id=<?php echo $row['plant_id']; ?>" class="btn btn-sm btn-outline-primary me-1">Düzenle</a>
