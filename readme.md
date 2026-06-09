@@ -33,6 +33,19 @@ Sistemde karmaşayı önlemek ve veri güvenliğini sağlamak amacıyla her kull
 ![home](img/home.png)
 
 ---
+## 👤 Öntanımlı Kullanıcılar
+
+Sistemde önkayıtlı kullanıcılar
+
+| Kullanıcı\Nitelik | Kullanıcı adı | Ad Soyad | Şifre | Rol |
+| :--- | :---: | :---: | :---: | :---: |
+| **admin** | admin | admin | admin | admin |
+| **staff** | staff | staff | staff | staff |
+| **organizer** | organizer | organizer | organizer | organizer |
+| **franklin** | franklin | Franklin Clinton | franklin | user |
+| **michael** | michael | Michael De Santa | michael | user |
+| **trevor** | trevor | Trevor Philips | trevor | user |
+---
 
 ## 📐 Veritabanı İlişki Mimarisi (Database Schema)
 
