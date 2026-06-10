@@ -43,9 +43,9 @@ Sistemde önkayıtlı kullanıcılar
 
 | Kullanıcı\Nitelik | Kullanıcı adı | Ad Soyad | Şifre | Rol |
 | :--- | :---: | :---: | :---: | :---: |
-| **admin** | admin | admin | admin | admin |
-| **staff** | staff | staff | staff | staff |
-| **organizer** | organizer | organizer | organizer | organizer |
+| **admin** | admin | Sistem Yöneticisi | admin | admin |
+| **staff** | staff | Bahçıvan | staff | staff |
+| **organizer** | organizer | Etkinlik Sorumlusu | organizer | organizer |
 | **franklin** | franklin | Franklin Clinton | franklin | user |
 | **michael** | michael | Michael De Santa | michael | user |
 | **trevor** | trevor | Trevor Philips | trevor | user |
@@ -109,3 +109,9 @@ Kullanıcılardan formlar veya URL parametreleri aracılığıyla gelen tüm din
 
 ### 4. Veri Bütünlüğü ve Cascade Kısıtlamaları
 Veritabanı düzeyinde kurulan yabancı anahtar ilişkileri sayesinde, sistemden bir kullanıcı silindiğinde ona ait bitki kayıtları (`ON DELETE CASCADE`); veya bir bitki silindiğinde ona bağlı bakım geçmişi otomatik olarak temizlenir, yetim veri (orphan data) oluşumu engellenir.
+
+---
+
+## Video Bağlantısı
+
+https://drive.google.com/file/d/15Hh267xV8OIKbcZ2PM4BMbfNUyvflqUl/view?usp=sharing
